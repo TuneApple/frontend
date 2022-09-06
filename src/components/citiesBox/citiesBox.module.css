@@ -1,0 +1,17 @@
+*{
+    background: none;
+
+}
+.container__selected{
+    display: block;
+    margin: 3%;
+}
+
+.container__selected option{
+    height: 100px;
+    width: 100px;
+    background: black;
+}
+.container__selected.decorated option:hover {
+    box-shadow: 0 0 10px 100px black inset;
+}

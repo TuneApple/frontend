@@ -1,0 +1,143 @@
+.wrapper {
+
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #000 !important;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.logo a{
+    display: block;
+    width: 100px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: content-box;
+    font-size: 0;
+    margin: 1% 10% 10%;
+
+}
+
+.link__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border: 1px solid red;
+    width: 50%;
+
+}
+
+.links{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+}
+.links h2{
+    font-size: 1.5em;
+}
+.links a{
+    display: block;
+    margin-top: 3%;
+}
+.links a:hover {
+    color: coral;
+}
+
+
+
+
+
+.catalog{
+    margin-top: 1%;
+
+    display: flex;
+    flex-direction: column;
+
+}
+.catalog h2{
+    font-size: 1.5em;
+
+}
+.catalog a{
+    display: block;
+    margin-top: 3%;
+
+}
+.catalog a:hover {
+    color: coral;
+}
+
+
+
+
+.documentation{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+
+}
+.documentation h2{
+    font-size: 1.5em;
+}
+.documentation a{
+    display: block;
+    margin-top: 3%;
+
+}
+.documentation a:hover {
+    color: coral;
+}
+
+
+
+
+.phone{
+    display: flex;
+    flex-direction: column;
+
+}
+.phone__links_logo{
+
+}
+.phone__links{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.phone__links a{
+    margin: 5px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: content-box;
+    font-size: 0;
+}
+.phone__number{
+    display: flex;
+    justify-content: flex-end;
+}
+.phone__number a{
+    margin: 5px;
+    color: rgb(255,255,255);
+}
+.phone__time{
+    margin: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}

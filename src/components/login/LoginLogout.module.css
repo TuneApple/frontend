@@ -1,0 +1,15 @@
+.container{
+    text-align: center;
+}
+.form__login{
+    display: inline-block;
+}
+
+.login{
+    display: flex;
+    justify-content: flex-end;
+    width:100%;
+}
+.login a{
+
+}

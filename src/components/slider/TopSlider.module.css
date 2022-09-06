@@ -1,0 +1,49 @@
+.Top{
+    background-color: #000;
+
+}
+.slide{
+
+    display: flex;
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container img{
+    display: flex;
+    max-height: 350px;
+}
+.caption{
+    padding-top: 4%;
+}
+.container p{
+    font-family: 'GTWalsheimPro',Arial,sans-serif;
+    color: white;
+
+}
+.caption__head{
+    font-size: 48px;
+
+}
+.caption__text{
+    padding-top: 1%;
+    font-size: 30px;
+}
+.caption__link{
+    padding-top: 4%;
+}
+.caption__link a{
+    padding-top: 4%;
+    color: coral;
+}
+@media (max-width: 768px) {
+    .container{
+        height: 350px;
+    }
+    .container img{
+        max-height: 220px;
+    }
+}
